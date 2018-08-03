@@ -1,0 +1,17 @@
+body
+		{
+			font-family: helvetica;
+		}
+		.menu
+		{
+			color: #ffffff;
+		}
+		.menu > li
+		{
+			font-size: 20px;
+			padding: 0 10px 0 0;
+		}
+		.nav
+		{
+			background-color: #293137;
+		}
