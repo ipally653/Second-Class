@@ -8,6 +8,21 @@ body
 	max-width: 960px;
 	width: 100%
 }
+h1
+{
+	margin: 0;
+	text-align: center;
+	margin: auto;
+}
+.header-title
+{
+	width: 700px;
+}
+.header-subtitle
+{
+	margin-top: 50px;
+	width: 425px;
+}
 .logo
 {
 	float: left;
@@ -31,6 +46,11 @@ body
 	height: 100px;
 	width: 100%;
 }
+.title-wrapper
+{
+	padding-top: 200px;
+}
+
 ul
 {
 	list-style: none;
