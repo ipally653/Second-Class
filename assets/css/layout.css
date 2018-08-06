@@ -1,6 +1,22 @@
+*
+{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box
+	box-sizing:border-box;
+}
 body
 {
 	margin: 0;
+}
+.call-to-action
+{
+	alignment-baseline: central;
+	text-align: center;
+}
+.column
+{
+	width: 50%;
+	float: left;
 }
 .container
 {
@@ -8,9 +24,8 @@ body
 	max-width: 960px;
 	width: 100%
 }
-h1
+h1,h3
 {
-	margin: 0;
 	text-align: center;
 	margin: auto;
 }
@@ -22,6 +37,23 @@ h1
 {
 	margin-top: 50px;
 	width: 425px;
+}
+.intro
+{
+	float: left;
+	width: 50%;
+	padding-top: 50px;
+}
+p
+{
+	text-align: center;
+    margin: auto;
+    padding-top: 10px
+}
+.intro-button
+{
+	height: 100%;
+    padding-top: 50px;
 }
 .logo
 {
@@ -46,6 +78,22 @@ h1
 	height: 100px;
 	width: 100%;
 }
+.references
+{
+    margin: 0 10% 0 10%;
+    text-align: left;
+}
+.references > p
+{
+	text-align: left;
+}
+.row
+{
+	width: 50%;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
 .title-wrapper
 {
 	padding-top: 200px;
@@ -56,4 +104,9 @@ ul
 	list-style: none;
 	margin: 0;
 	padding 0;
+}
+.works
+{
+	max-width: 80%;
+    margin: auto;
 }
