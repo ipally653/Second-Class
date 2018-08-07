@@ -19,6 +19,14 @@ body
 	text-transform: uppercase;
 	font-family: helvetica;
 }
+.footer
+{
+	background-color: #0d0d0d;
+}
+.footer-menu
+{
+	color: #ffffff;
+}
 h4
 {
 	text-transform: uppercase;
@@ -62,6 +70,10 @@ header
 {
 	color: #ffffff;
 	font-size: 10px;
+}
+.map
+{
+	background-color: #293137;
 }
 .works
 {
